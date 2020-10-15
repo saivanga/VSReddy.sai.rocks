@@ -4,7 +4,7 @@
 }
 
 html {
-  width: 800px;
+  max-width: 800px;
   margin: auto;
 
   font-family: "Source Code Pro", monospace;
@@ -69,7 +69,8 @@ nav li {
   background-color: yellow;
 }
 
-.nav a:hover {
+.nav a:hover,
+a.active {
   color: yellow;
   background-color: red;
 }
@@ -83,18 +84,13 @@ nav li {
   font-size: 1.2em;
   padding: none;
   font-family: "Source Code Pro", monospace;
+  min-height: 300px;
 }
 
 .content a {
   margin-bottom: 15px;
   text-indent: 30px;
   text-align: justify;
-
-  font-family: "Source Code Pro", monospace;
-}
-
-.active {
-  font-weight: bold;
 
   font-family: "Source Code Pro", monospace;
 }
