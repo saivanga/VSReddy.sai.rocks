@@ -57,16 +57,19 @@ nav li {
 .nav a {
   padding: 12px;
   display: inline-block;
-  float: right;
   border-right: 2px solid black;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
+  margin-right: -10px;
   font-family: "Source Code Pro", monospace;
   display: inline-block;
   padding: 8px;
+  text-decoration: none;
 }
-.nav a:hover,
-.nav a:active {
+.nav a:link {
+  color: red;
+  background-color: yellow;
+}
+
+.nav a:hover {
   color: yellow;
   background-color: red;
 }
@@ -105,4 +108,9 @@ nav li {
 
 h2 {
   margin: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
