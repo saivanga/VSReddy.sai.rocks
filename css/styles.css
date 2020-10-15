@@ -53,6 +53,7 @@ nav li {
   border-bottom: 3px solid #617c7b;
   margin: auto;
   padding: 100px, 100px, 100px, 200px;
+  
 }
 .nav a {
   padding: 12px;
@@ -65,14 +66,19 @@ nav li {
   text-decoration: none;
 }
 .nav a:link {
-  color: red;
-  background-color: yellow;
+  color:  navy;
+  background-color: white  ;
 }
 
-.nav a:hover,
+.nav a:hover{
+  color: navy  ;
+  background-color:  white;
+}
+
+
 a.active {
-  color: yellow;
-  background-color: red;
+  color: black  ;
+  background-color:  #bdf6ff;
 }
 
 .nav li {
