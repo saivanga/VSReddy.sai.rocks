@@ -1,5 +1,6 @@
 .minecraft {
   font-weight: auto;
+  padding: 1000pc;
 }
 
 html {
@@ -43,18 +44,37 @@ li {
   font-family: "Source Code Pro", monospace;
 }
 
-.nav {
-  padding: 12px;
-  border-bottom: 3px ridge #617c7b;
+nav li {
+  display: inline-block;
+}
 
+.nav {
+  border-bottom: 3px solid #617c7b;
+  margin: auto;
+  padding: 100px, 100px, 100px, 200px;
+}
+.nav a {
+  padding: 12px;
+  display: inline-block;
+  float: right;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
   font-family: "Source Code Pro", monospace;
+  display: inline-block;
+  padding: 8px;
+}
+.nav a:hover,
+.nav a:active {
+  background-color: yellow;
+  color: red;
 }
 
 .content {
   padding: 12px;
   border-bottom: 3px ridge #617c7b;
   font-size: 1.2em;
-
+  padding: none;
   font-family: "Source Code Pro", monospace;
 }
 
